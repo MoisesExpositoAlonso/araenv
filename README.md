@@ -1,4 +1,4 @@
-## Climate data used in Exposito-Alonso et al. 2018 bioRxiv
+## Climate data used in Exposito-Alonso et al. 2018 bioRxiv https://doi.org/10.1101/321133
 
 NOTE: I have exceeded my personal storage quota on this repository. While this gets solved, I can transfer the data via ftp or Google Drive link upon request at moisesexpositoalonso@gmail.com
 
