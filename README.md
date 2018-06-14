@@ -1,5 +1,7 @@
 Climate data used in Exposito-Alonso et al. 2018 bioRxiv
 
+|Variable|Description|
+|--------|-----------|
 |latitude|Degrees North|
 |longitude|Degrees East|
 |alt|Altitude, meters above sea level|
