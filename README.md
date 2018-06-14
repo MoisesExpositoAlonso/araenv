@@ -1,10 +1,31 @@
-Climate data used in Exposito-Alonso et al. 2018 bioRxiv
+## Climate data used in Exposito-Alonso et al. 2018 bioRxiv
+
+NOTE: I have exceeded my personal storage quota on this repository. While this gets solved, I can transfer the data via ftp or Google Drive link upon request at moisesexpositoalonso@gmail.com
+
+
+### Get the data
+``` sh
+git clone https://github.com/MoisesExpositoAlonso/araenv
+cd araenv
+R
+```
+
+``` R
+library(raster)
+
+r<-stack('araenv.gri')
+
+araenv # to get a description of the raster object
+
+plot(araenv[[1]]) ## for a world plot of Annual Mean Temperature
+
+```
+
+
+==================================================================
 
 |Variable|Description|
 |--------|-----------|
-|latitude|Degrees North|
-|longitude|Degrees East|
-|alt|Altitude, meters above sea level|
 |bio_1|Annual Mean Temperature (ºC)|
 |bio_2|Mean Diurnal Range (Mean of monthly (max temp - min temp))|
 |bio_3|Isothermality (2/7) (* 100)|
